@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Small Business Page With HTML5 and CSS3</title>
+	<title>Small Business Page With HTML5, CSS3 and Bootstrap</title>
+
+	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">  <!-- OLD  bootstrap.min.css version-->
+
+	<!-- JS -->
 	<script src="js/jquery.js" type="text/javascript"></script>
-
-	<script type="text/javascript">
-		$(document).ready(function(){
-				alert("Welcome to Software Company with Jquery");
-		});
-
-	</script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>   <!-- OLD  bootstrap.min.js version-->
+	
 </head>
 <body>
 	<!-- header -->
 <header>
-	<!-- main container -->
-	<div class="main-container">
+
+ 	<!-- main container -->
+	<div class="container">
 		
 		<!-- Single row-->
-		<div class="single-row">
+		<div class="row">
 
 			<!-- col-left -->
-			<div class="col-left">
-				
-				<img src="images/home.jpg" alt="small business page">
+			<div class="col-md-8">
+				<img src="images/home.jpg" class="img-responsive img-rounded" alt="small business page" width="750px" height="400px">
 			</div>
 
 			<!-- col-right -->
-			<div class="col-right">
+			<div class="col-md-4">
 				<h1>Software Company</h1>
 				<p>Organizing a software company is very specialized type of management skill, where experienced persons can turn the organizational problem into a unique benefit. For example, having sub-teams spread in different time zones may allow a 24-hour company working day, if the teams, systems and procedures are well established. A good example is the test team in time zone 8 hours ahead or behind the development team, who fix software bugs found by the testers.</p>
-				<a href="index.html" class="btn">Take a Tour</a>
+				<a href="index.html" class="btn btn-primary btn-lg">Take a Tour</a>
 
 			</div>
 		
@@ -45,10 +45,10 @@
 <!-- Seperator -->
 <section>
 	<!-- Main Container -->
-	<div class="main-container">
+	<div class="container">
 		
 		<!-- Single Row -->
-		<div class="single-row">
+		<div class="row">
 			<!-- col full -->
 			<div>
 
@@ -64,31 +64,31 @@
 <section>
 	
 	<!-- Main Container-->
-	<div class="main-container">
+	<div class="container">
 		
 		<!-- Single row-->
-		<div class="single-row">
+		<div class="row">
 			
 			<!-- col - 1 -->
-			<div class="col-1">
+			<div class="col-md-4">
 				<h2>Common roles in a software company</h2>
 				<p>Organizing a software company is very specialized type of management skill, where experienced persons can turn the organizational problem into a unique benefit. For example, having sub-teams spread in different time zones may allow a 24-hour company working day, if the teams, systems and procedures are well established. A good example is the test team in time zone 8 hours ahead or behind the development team, who fix software bugs found by the testers.</p>
-				<a href="https://en.wikipedia.org/wiki/Software_company" class="btn-info">More Info</a>
+				<a href="https://getbootstrap.com/docs/4.0/components/buttons/" class="btn btn-default">More Info</a>
 			</div>
 
 			<!-- col - 2 -->
-			<div class="col-2">
+			<div class="col-md-4">
 				<h2>Common roles in a software company</h2>
 				<p>Organizing a software company is very specialized type of management skill, where experienced persons can turn the organizational problem into a unique benefit. For example, having sub-teams spread in different time zones may allow a 24-hour company working day, if the teams, systems and procedures are well established. A good example is the test team in time zone 8 hours ahead or behind the development team, who fix software bugs found by the testers.</p>
-				<a href="https://en.wikipedia.org/wiki/Software_company" class="btn-info">More Info</a>
+				<a href="https://getbootstrap.com/docs/4.0/components/buttons/" class="btn btn-default">More Info</a>
 				
 			</div>
 
 			<!-- col - 3 -->
-			<div class="col-3">
+			<div class="col-md-4">
 				<h2>Common roles in a software company</h2>
 				<p>Organizing a software company is very specialized type of management skill, where experienced persons can turn the organizational problem into a unique benefit. For example, having sub-teams spread in different time zones may allow a 24-hour company working day, if the teams, systems and procedures are well established. A good example is the test team in time zone 8 hours ahead or behind the development team, who fix software bugs found by the testers.</p>
-				<a href="https://en.wikipedia.org/wiki/Software_company" class="btn-info">More Info</a>
+				<a href="https://getbootstrap.com/docs/4.0/components/buttons/" class="btn btn-default">More Info</a>
 			</div>
 
 		</div>
@@ -101,14 +101,14 @@
 	<!-- foooter -->
 <footer>
 		<!-- main container -->
-		<div class="main-container">
+		<div class="container">
 				<!-- single row -->
-				<div class="single-row">
+				<div class="row">
 					
 						<!-- col - full -->
-						<div class="col-footer">
+						<div class="col-md-12">
 							
-							<h1>Copyrights &copy; Developed by Biplob 2020</h1>
+							<h1 id="footer-p">Copyrights &copy; Developed by Biplob 2020</h1>
 
 						</div>
 				</div>
